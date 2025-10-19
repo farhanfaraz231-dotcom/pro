@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- FIREBASE -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-storage.js"></script>
+    <!-- FIREBASE -->
+  </head>
+  <body>
+    <h1 style="text-align: center">login</h1>
+    <div class="container">
+      <input id="email" type="text" placeholder="Enter your email" />
+      <input id="password" type="password" placeholder="Enter your password" />
+      <span><a href="./index.html">sign up</a></span>
+      <button onclick="myday()">Submit</button>
+    </div>
+
+    <script src="./api.js"></script>
+    <script src="./login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
