@@ -4,8 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-storage.js"></script>
+    <!-- FIREBASE -->
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Welcome to Home Page</h1>
+    <div class="container">
+      <input id="email" type="text" placeholder="Enter your email" />
+      <input id="phoneno" type="text" placeholder="Enter your phoneno" />
+      <input id="cnic" type="text" placeholder="Enter your cnic" />
+      <input id="gender" type="text" placeholder="Enter your gender" />
+
+      <button onclick="mybaby()">submit</button>
+    </div>
+
+    <script src="./api.js"></script>
+    <script src="homee.js"></script>
   </body>
 </html>
